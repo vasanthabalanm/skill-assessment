@@ -1,0 +1,321 @@
+* {
+  box-sizing: border-box;
+  font-family: manrope;
+  font-size: 14px;
+}
+
+.Available-Assessment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+
+.select-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.select-tags>div {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.select1,
+.select2,
+.select3 {
+  margin-right: 20px;
+}
+
+select {
+  width: 100%;
+  height: 56px;
+}
+
+.KSA-ListOfAssessments{
+  margin: '10px 0px 30px 40px';
+  font-weight: 700;
+}
+
+.sort-button {
+  width: 110px;
+  height: 44px;
+  background-color: #b0e1f4;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+/* Media Queries for responsive layout */
+@media (max-width: 768px) {
+  .select-tags>div {
+    max-width: 100%;
+  }
+
+  .sort-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .Available-Assessment {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .select-tags {
+    justify-content: center;
+  }
+
+  .sorts {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.listofassessements-label {
+  font-family: manrope;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24.59px;
+  padding: 15px;
+}
+
+.skill-and-topic {
+  display: flex;
+}
+
+.box {
+  border: solid 2px lightblue;
+  width: 330px;
+  height: 237px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.ending {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width:1150px) {
+  .pagination-container {
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .List-Of-Assessments {
+    margin-left: -20px;
+  }
+
+  .MuiPagination-ui {
+    display: block;
+  }
+
+  .flex-prop1 {
+    margin: 0 auto;
+  }
+}
+
+.employeeForm {
+  width: 750px;
+  height: 1080px;
+}
+
+.formHead {
+  display: flex;
+  margin-left: 48px;
+  justify-content: space-between;
+}
+
+.crossleft {
+  margin-right: 48px;
+  margin-top: -16px;
+}
+
+.createHead {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+
+.closeImg {
+  margin-left: 220px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+* {
+  font-family: Manrope;
+}
+
+.seekerForm {
+  margin-left: 30px;
+
+}
+
+.formHead {
+  display: flex;
+}
+
+.createHead {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.24px;
+}
+
+.closeImg {
+  margin-left: 220px;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.seekerEmail {
+  width: 540px;
+}
+
+.assessmentId {
+  width: 540px;
+}
+
+.assessmentHead {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #717D8A;
+}
+
+.assessmentIdPara {
+  margin-left: 20px;
+  margin-top: 5px;
+  color: #717D8A;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.departmentBox {
+  width: 540px;
+}
+
+.selectLevel {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #373F47;
+  margin-left: 48px;
+  margin-top: 25px;
+}
+
+.divideBox {
+  display: flex;
+}
+
+.questionsPara {
+  margin-left: 48px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #717D8A;
+}
+
+.datePara {
+  margin-left: 60px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  color: #717D8A;
+}
+
+.formLogo {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  opacity: 0.1;
+}
+
+.mailButtons {
+  margin-left: 370px;
+  z-index: 2;
+  position: absolute;
+}
+
+.sendButton {
+  width: 160px;
+  height: 44px;
+}
+
+.cancelButton {
+  width: 160px;
+  height: 44px;
+}
+
+.image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.imageDiv {
+  width: 40px;
+  height: 40px;
+}
+
+.successGIF {
+  margin-left: 220px;
+  margin-top: -30px;
+}
+
+.closeIcon {
+  margin-left: 550px;
+  cursor: pointer;
+}
+
+.modalHeading {
+  text-align: center;
+  /* H1 heading/Semibold/24px */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #242D35;
+  margin-top: -20px;
+}
+
+.modalPara {
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  color: #4F5B67;
+}
+
+.linkField {
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.linkBox {
+  display: flex;
+}
+
+.copyButton {
+  margin-top: 25px;
+  margin-left: 10px;
+}

@@ -1,0 +1,210 @@
+.employeeForm {
+    width: 750px;
+    height: 1080px;
+}
+
+.formHead {
+    display: flex;
+    margin-left: 48px;
+    justify-content: space-between;
+}
+
+.assessmentDetail {
+    margin-left: 48px;
+    margin-top: 20px;
+    color: var(--textcolortext-500, #717D8A);
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.2px;
+}
+
+.crossleft {
+    margin-right: 48px;
+}
+
+.createHead {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.closeImg {
+    margin-left: 220px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+* {
+    font-family: Manrope;
+}
+
+.seekerForm {
+    margin-left: 30px;
+
+}
+
+.formHead {
+    display: flex;
+}
+
+.createHead {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}
+
+.closeImg {
+    margin-left: 220px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.seekerEmail {
+    width: 540px;
+}
+
+.assessmentId {
+    width: 540px;
+}
+
+.assessmentHead {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #717D8A;
+}
+
+.assessmentIdPara {
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #717D8A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.departmentBox {
+    width: 540px;
+}
+
+.selectLevel {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #373F47;
+    margin-left: 48px;
+    margin-top: 25px;
+}
+
+.divideBox {
+    display: flex;
+}
+
+.questionsPara {
+    margin-left: 48px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #717D8A;
+}
+
+.datePara {
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    color: #717D8A;
+}
+
+.formLogo {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    opacity: 0.1;
+}
+
+.mailButtons {
+    margin-left: 370px;
+    z-index: 2;
+    position: absolute;
+}
+
+.sendButton {
+    width: 160px;
+    height: 44px;
+}
+
+.cancelButton {
+    width: 160px;
+    height: 44px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.imageDiv {
+    width: 40px;
+    height: 40px;
+}
+
+.successGIF {
+    margin-left: 220px;
+    margin-top: -30px;
+}
+
+.closeIcon {
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.modalHeading {
+    text-align: center;
+    /* H1 heading/Semibold/24px */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #242D35;
+    margin-top: -20px;
+}
+
+.modalPara {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    color: #4F5B67;
+}
+
+.linkField {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.linkBox {
+    display: flex;
+}
+
+.copyButton {
+    margin-top: 25px;
+    margin-left: 10px;
+}

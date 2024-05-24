@@ -1,0 +1,213 @@
+
+
+* { 
+    font-family: 'Manrope'; 
+}
+
+.wrapper {
+    display: flex;
+}
+
+.backgrounds {
+    width: 57%;
+    height: 100vh;
+    background: linear-gradient(134.3deg, #0089ce52 -45.11%, rgba(0, 138, 207, 0.21) 42.59%, rgba(189, 218, 87, 0.15) 90.72%);
+    border-radius: 0px 0px 350px 0px;
+}
+
+.topbanner {
+    height: 568px;
+    position: relative;
+    float: right;
+}
+
+.leftcol {
+    float: left;
+}
+
+.middlebanner {
+    margin-left: 180px;
+    margin-top: 350px;
+}
+
+.mainhead {
+    margin-left: 180px;
+    letter-spacing: 0.01em;
+    font-size: 40px;
+    font-weight: 800; 
+    margin-top: 10px;
+    position: absolute;
+}
+
+.subheads {
+    margin-left: 180px;
+    font-size: 28px;
+    margin-top: 70px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #4F5B67;
+}
+
+.bottombanner {
+    margin-top: 250px;
+    height: 300px;
+}
+
+.valid {
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.logo {
+    width: 242px;
+    font-weight: 600;
+    height: 68px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;   
+}
+
+.forms {
+    margin-top: -10px;
+    margin-left: 35px;
+}
+
+.input {
+    width: 340px;
+    height: 10px;
+    font-size: larger;
+    border: 1px solid #717D8A;
+    border-radius: 6px;
+    margin-top: 8px;
+    padding: 16px;
+}
+
+
+.btns {
+    text-align: center;
+    width: 340px;
+    height: 20px;
+    background: #76c8e896;
+    border: 1.5px solid #7BCCED;
+    border-radius: 4px; 
+    margin-top: 10px;
+    padding: 8px 8px 30px 12px;
+}
+
+.signin{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    font-weight: 480;
+    margin-left: -10px;
+}
+
+.signin:hover{
+    color: black;
+}
+
+.forgot {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.paswrd {
+        text-decoration: none;
+        color: rgb(118, 118, 118);
+        font-size: 14px;
+        margin-right: 30px;
+}
+
+.Text{
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: rgb(118, 118, 118);
+}
+
+.Text2{
+    font-size: 14px;
+    margin-bottom: -20px;
+    color: rgb(118, 118, 118);
+}
+
+.Text1{
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 0px;
+}
+
+.error{
+    color: red;
+}
+
+
+
+/* This media query targets screens with a maximum width of 820px */
+
+@media only screen and (max-width:820px) {
+
+
+  .backgrounds {
+        width: 0%;
+   }
+
+
+.logo {
+    width: 240px;
+    height: 80px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    
+}
+
+
+.topbanner {
+    height: 368px;
+    margin-left: 428px;
+    position: absolute;
+}
+.mainhead {
+    display: none;
+}
+.subheads {
+    display: none;
+}
+.middlebanner {
+    display: none;
+}
+.bottombanner {
+   display: none;
+}
+}
+@media only screen and (min-width: 830px) and (max-width:1400px){
+
+    
+    .bottombanner {
+        display: none;
+     }
+     .topbanner{
+        display: none;
+     }
+   
+     .mainhead {
+        margin-left: 20px;
+        letter-spacing: 0.01em;
+        font-size: 24px;
+        font-weight: 400; 
+        margin-top: -150px;
+        position: absolute;
+    }
+     .subheads {
+        margin-left: 20px;
+        font-size: 18px;
+        margin-top: -120px;
+        line-height: 38px;
+        letter-spacing: 0.02em;
+        color: #4F5B67;
+    }
+    .middlebanner {
+        display: none;
+    }
+}

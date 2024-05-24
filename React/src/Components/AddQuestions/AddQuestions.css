@@ -1,0 +1,294 @@
+.question-container {
+    margin-left: 230px;
+    margin-top: 40px;
+}
+
+.depart-tag {
+    width: 1192px;
+    height: 56px;
+}
+.depart-margin-tag{
+    margin-left: 70px;
+}
+
+.topic-tag {
+    width: 1192px;
+    height: 56px;
+}
+
+.type-tag {
+    width: 242px;
+    height: 56px;
+}
+
+.option-tag {
+    width: 892px;
+    height: 56px;
+}
+
+.type-head {
+    margin-right: 35px;
+    margin-top: 25px;
+}
+
+.question-flex {
+    display: flex;
+    
+}
+
+.import-btn {
+    width: 192px;
+    height: 56px;
+    background-color: #fff;
+    border: 1px solid #7bcced;
+    border-radius: 10px;
+}
+
+.question-border {
+    margin-top: 15px;
+    margin-left: 70px;
+    border: 1px solid #cdcdce;
+    width: 1552px;
+    /* height: 629px; */
+    border-radius: 5px;
+}
+
+.topic-head {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.level-align {
+    display: flex;
+}
+
+.level-head {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.margin-level {
+    margin-left: 45px;
+}
+
+.marg-level-left {
+    margin-left: 8px;
+}
+
+.flex-space-btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tick-box {
+    width: 56px;
+    height: 56px;
+    border: 1px solid #cdcdce;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tick-img {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-width {
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    margin-top: 20px;
+}
+
+.flex-opt {
+    display: flex;
+}
+
+.img-group {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.flex-space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-top-ques {
+    margin-top: 35px;
+}
+
+.save-edit {
+    display: flex;
+    justify-content: space-between;
+    width: 145px;
+}
+
+.save-edit-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.save-btn {
+    width: 60px;
+    height: 42px;
+    padding-top: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid #7bcced;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.edit-btn {
+    width: 60px;
+    height: 42px;
+    padding-top: 8px;
+    padding-left: 14px;
+    cursor: pointer;
+    padding-right: 14px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.del-img {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.question-base {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.ques-submit {
+    width: 145px;
+    background-color: #7bcced;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-left: 15px;
+}
+
+.ques-add {
+    width: 105px;
+    color: black;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ques-add:hover {
+    background-color: #7bcced;
+    border-radius: 5px;
+    translate: 0px -8px;
+}
+
+.ques-submit:hover {
+
+    translate: 0px -8px;
+}
+
+.limit-reached {
+    width: 260px;
+    background-color: #039855;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    height: 48px;
+    padding-top: 10px;
+    padding-left: 45px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.selected {
+    background-color: rgb(44, 208, 44);
+    color: white;
+}
+
+.active {
+    background-color: #fff;
+}
+
+/* responsive */
+@media screen and (max-width:1280px) {
+    .question-flex {
+        margin-left: 480px;
+    }
+
+    .question-border {
+        width: 1400px;
+    }
+
+    .flex-width {
+        width: 1008px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .question-flex {
+        margin-left: 680px;
+    }
+
+    .question-border {
+        width: 1360px;
+    }
+
+    .flex-width {
+        width: 1008px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:840px) {
+    .question-flex {
+        margin-left: 740px;
+    }
+
+    .question-border {
+        width: 1300px;
+    }
+
+    .flex-width {
+        width: 1008px;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .question-flex {
+        margin-left: 500px;
+    }
+
+    .question-border {
+        margin-left: -200px;
+        width: 1300px;
+    }
+
+    .flex-width {
+        width: 1008px;
+        margin-top: 20px;
+    }
+
+    .ques-submit {
+        margin-left: -250px;
+    }
+}

@@ -1,0 +1,654 @@
+*{
+    font-family: 'Manrope'; 
+}
+
+.main{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 310px;
+}
+.container1{
+    margin-top: 80px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 39%;
+    height: 100%;
+    background-color: #2da9d3a9;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: 0.5s;
+ }
+#phead
+{
+    font-size: 21px;
+    font-weight: 500;
+}
+.banner1{
+
+    width: 715px;
+    height: 229px;
+    background: linear-gradient(270deg, #E1EEC8 -9.65%, rgba(243, 249, 233, 0) 76.44%,rgba(255, 255, 255, 0.637));
+    border: 1px solid #D6DADE;
+    border-radius: 10px;
+}
+.img1{
+
+    width: 520px;
+    height: 260px;
+    border-radius: 10px;
+    background: url(../../assets/HR1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-right: 260px;
+    margin-bottom: 32px;
+    
+    
+}
+.p1{
+
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #151515;
+    padding-right: 33px;
+    margin-bottom: 0%;
+    padding-top: 20px;
+    
+
+}
+.p2{
+   
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: rgba(87, 87, 87, 0.82);
+    padding-right: 33px;
+    padding-top: 0px;
+    margin-top: 8px;
+    
+
+}
+#btn1{
+
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 218px;
+    height: 48px;
+    margin-left: 460px;
+    margin-top: 20px;
+    background: #E1EEC8;
+    border: 1px solid #BAD881;
+    border-radius: 4px;
+}
+.banner2{
+
+    width: 725px;
+    height: 229px;
+    left: 149px;
+    top: 170px;
+    background: linear-gradient(87.4deg, rgba(223, 243, 251, 0.1) 29.02%, #DFF3FB 101.47%);
+    border: 1px solid #D6DADE;
+    border-radius: 10px;
+}
+.img2{
+    width: 540px;
+    height: 280px;
+    border-radius: 10px;
+    background: url(../../assets/HR2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+#btn2{
+    
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 218px;
+    height: 48px;
+    margin-left: 468px;
+    margin-top: 20px;
+    background: #AFE0F4;
+    border: 1px solid #7BCCED;
+    border-radius: 4px;
+}
+#explore{
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 28px;
+    margin-top: 10px;
+    margin-left: 310px;
+}
+
+.row1{
+    display: flex;
+    margin-left: 310px;
+}
+.col2{
+    margin-left: 105px;
+    margin-right: 95px;
+}
+.con{
+    margin-top: -5px;
+    margin-left: 140px;
+    position: absolute;  
+}
+
+a img{
+    margin-left: 320px;
+    margin-top: 30px;
+    height: 52px;
+    width: 52px;   
+} 
+
+.rect1{
+width: 435px;
+height: 140px;
+padding-top: 20px;
+margin-bottom: 50px;
+background: #FFFFFF;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.16);
+border-radius: 8px;
+}
+
+.ell1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 84px;
+    height: 84px;
+    margin-left: 26px;
+    background-image: url(../../assets/Ellipse\ 225.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 0px solid #F3F9E9;
+    display: flex;
+}
+.icon1 img{
+  
+    height: 42px;
+    width: 42px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+#spa{
+    color: rgba(87, 87, 87, 0.82);
+}
+#para-head{
+
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0rem;
+    margin-top: 15px;
+}
+#para-time{
+
+    font-weight: 400;
+    font-size: 14px;
+    color: #A8B0B9;
+    margin-top: 4px;
+}
+
+
+@media screen and (max-width: 1600px) {
+   
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 37%;
+    }
+    .p1{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .p2{
+        font-size: 10px;
+        margin: 0%;
+    }
+    .img1{
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+        background: url(../../assets/HR1.png);
+        background-repeat: no-repeat;
+        background-size: 375px 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    #btn1{
+        margin-left: 80%;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        font-weight:400;
+    }
+    .banner1{
+    width: 100%;
+    height: 200px;
+    }
+    .bannerTxt{
+        font-size: 8px;
+    }
+    
+    .img2{
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+        background-size: 300px 200px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    #btn2{
+        margin-left: 80%;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        font-weight:400;
+    }
+    .banner2{
+    width: 100%;
+    height: 200px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        margin-left: 35%;
+    }
+    .rect1{
+        width: 580px;
+    }
+    .con{
+        position: relative;
+    }
+    .con p{
+        width: 410px;
+    }
+    .col2{
+        margin: 0%;
+    }
+    a img{
+        margin-left: 460px;
+        width: 60px;
+        height: 60px;
+    }
+    
+}  
+
+
+@media screen and (max-width: 980px){
+ .hide-icon{
+    display: none;
+    position: fixed;
+ }
+ .hide-icon-1{
+    display: block;
+    position: fixed;
+}
+ .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.p2{
+    font-size: 10px;
+    margin: 0%;
+}
+.img1{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background: url(../../assets/HR1.png);
+    background-repeat: no-repeat;
+    background-size: 220px 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 80px;
+}
+#btn1{
+    margin-left: 68%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 9px;
+    font-weight:400;
+}
+.banner1{
+width: 420px;
+height: 200px;
+}
+.bannerTxt{
+    font-size: 8px;
+}
+
+.img2{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background-size: 220px 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 80px;
+}
+#btn2{
+    margin-left: 68%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 9px;
+    font-weight:400;
+}
+.banner2{
+width: 420px;
+height: 200px;
+}
+#explore{
+    margin-left: 400px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+}
+.rect1{
+    width: 380px;
+    margin-left: 50px;
+}
+#para-time, #para-head{
+    font-size: 16px;
+}
+.con{
+    position: relative;
+}
+.con p{
+    width: 410px;
+}
+.col2{
+    margin: 0%;
+}
+a img{
+    margin-left: 270px;
+    width: 60px;
+    height: 60px;
+}
+}
+
+
+@media screen and (max-width: 760px){
+ .hide-icon{
+    display: none;
+ }
+ .hidden-2{
+    display: none;
+ }   
+ .navbar{
+    margin-left: 0;
+ }
+ .navbar h3{
+    text-align: center;
+    width: 250px;
+ }
+ .menu{
+    display: block;
+ }
+ .search{
+    display: none;
+ }
+ .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p1{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.p2{
+    font-size: 10px;
+    margin: 0%;
+}
+.img1{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background: url(../../assets/HR1.png);
+    background-repeat: no-repeat;
+    background-size: 275px 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 340px;
+}
+#btn1{
+    margin-left: 65%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 9px;
+    font-weight:400;
+}
+.banner1{
+width: 480px;
+height: 200px;
+}
+.bannerTxt{
+    font-size: 8px;
+}
+
+.img2{
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background-size: 240px 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-right: 340px;
+}
+#btn2{
+    margin-left: 65%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 9px;
+    font-weight:400;
+}
+.banner2{
+width: 480px;
+height: 200px;
+}
+#explore{
+    margin-left: 80px;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    margin-left: 20px;
+}
+.rect1{
+    width: 380px;
+}
+.con{
+    position: relative;
+}
+.con p{
+    width: 210px;
+}
+.col2{
+    margin: 0%;
+}
+a img{
+    margin-left: 270px;
+    height: 60px;
+}
+
+ 
+ 
+}
+@media screen and (max-width: 420px) {
+    body{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    .sidebar span{
+        font-size: 9px;
+    }
+    .sidebar h3{
+        line-height: 10px;
+    }
+    .navbar span{
+        font-size: 9px;
+    }
+    .navbar h3{
+        line-height: 10px;
+    }
+    .btn-1{
+        margin-top: 20px;
+    }
+    .logo img{
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+    }
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .p1{
+        font-size: 15px;
+        line-height: 1.5;
+      
+    }
+    .p2{
+        font-size: 8px;
+    
+    }
+    .img1{
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+        background: url(../../assets/HR1.png);
+        background-repeat: no-repeat;
+        background-size: 200px 180px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-right: 300px;
+    }
+    #btn1{
+        margin-left: 68%;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        font-weight:400;
+    }
+    .banner1{
+    width: 360px;
+    height: 180px;
+    }
+    .bannerTxt{
+        font-size: 8px;
+    }
+
+    .img2{
+        width: 100%;
+        height: 240px;
+        border-radius: 10px;
+        background-size: 200px 180px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        margin-right: 300px;
+    }
+    #btn2{
+        margin-left: 68%;
+        margin-bottom: 20px;
+        width: 100px;
+        height: 40px;
+        font-size: 9px;
+        font-weight:400;
+    }
+    .banner2{
+    width: 360px;
+    height: 180px;
+    }
+    #explore{
+        margin-left: 4%;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        margin-left: 0%;
+        
+    }
+    .rect1{
+        width: 300px;
+        height: 140px;
+        margin-left: 2%;
+    }
+    .ell1{
+        margin-left: 12px;
+        background-image: url(../../assets/Ellipse\ 225.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 68px;
+        height: 68px;
+        margin-top: 17px;
+    }
+    .icon1 img{
+        height: 28px;
+        width: 28px;
+        margin-left: 20px;
+        margin-top: 19px;
+
+
+    }
+    #para-time,#para-head{
+        font-size: 12px;
+        
+    }
+    .con{
+        position: relative;
+        margin-left: 110px;
+    }
+    .con p{
+        width: 210px;
+    }
+    .col2{
+        margin: 0%;
+    }
+    a img{
+        margin-left: 215px;
+        width: 54px;
+        height:54px;
+    }    
+}

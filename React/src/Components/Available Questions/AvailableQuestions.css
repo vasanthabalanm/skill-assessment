@@ -1,0 +1,122 @@
+.main1 {
+  margin-top: 50px;
+  margin-left: 310px;
+}
+.flexTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+#explore1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: -0.01em;
+  color: #000000;
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+.css-4pdmu4-MuiBreadcrumbs-ol {
+  margin-top: -20px !important;
+}
+.subcon3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.qnOrder {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 99%;
+}
+.qnOrder2 button {
+  border: none;
+  background-color: #dff3fb;
+  padding: 0px 0px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+.questionSet {
+  padding: 8px;
+}
+.questionPara {
+  margin-right: 200px;
+}
+.questionIcons img {
+  cursor: pointer;
+}
+.optionDis {
+  font-size: 16px;
+  font-weight: 500;
+  width: 1036px;
+  height: 55px;
+  margin: 10px;
+  border: 1px solid rgb(205, 203, 203);
+  border-radius: 5px;
+  background-color: white;
+  padding-left: 15px;
+}
+.correctAns {
+  border: 1px solid rgb(205, 203, 203);
+  border-radius: 5px;
+  background-color: white;
+  height: 53px;
+  width: 53px;
+}
+.correctAnss {
+  background-color: #42d38b;
+}
+.overallQns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.qnExp {
+  width: 217px;
+  height: 272px;
+  background-color: white;
+  border: 1px solid rgb(205, 203, 203);
+  border-radius: 5px;
+}
+.buttonEditStyle {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonEditStyle Button {
+  font-size: 15px;
+  font-weight: 500;
+}
+.qnOrder1 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.qnAns {
+  width: 1050px;
+  height: 272px;
+  background-color: white;
+}
+@media screen and (max-width: 1300px) {
+  .optionDis,
+  .qnAns {
+    width: 568px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .optionDis,
+  .qnAns {
+    width: 338px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .overallQns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flexTitle {
+    display: block;
+  }
+}
